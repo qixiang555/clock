@@ -28,7 +28,7 @@
 <view class="user-head">
     <view class="user-Ava"><open-data type="userAvatarUrl" style="border-radius: 10px !important;"></open-data></view>
     <view class="user-nametext"><open-data type="userNickName"></open-data></view>
-    <text class="user-text">今日专注力超越全国36%用户</text>
+    <text class="user-text">今日专注力超越全国用户</text>
     <image src="../../image/phone.png" bindtap="openIOS2" style="height: 15px;width: 20px;position: absolute;right: 50rpx;top: 110rpx;"></image>
     <!-- <block wx:if="{{!hasUserInfo}}">
       <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile" style="position: absolute;top:40rpx;right: 40rpx;height: 40rpx;">登录</button>
