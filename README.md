@@ -77,27 +77,6 @@
 * 微信基础库：>=`2.21.0`，页面适配 iPhone6 以上所有机型。
 
 
-## 📒项目信息
-* [反馈社群](https://support.qq.com/product/144958)
-
-* 你可以在项目 [Wiki](https://github.com/realyao/WXminiprogram-Focus-clock/wiki/%E5%85%B3%E4%BA%8E-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%92%9F-%E4%B8%93%E6%B3%A8%E8%87%AA%E4%B9%A0%E5%AE%A4-%E7%9A%84%E9%9C%80%E6%B1%82%E6%80%9D%E8%80%83) 中查看我对该产品做的部分需求分析、原型设计和数据分析。
- 
-* **如果该项目对您有帮助，欢迎点一个 `⭐star` & pull your requests**，当然你也可以**扫码请我喝瓶哇哈哈 😘**
-<div align=center><img width='45%' src="https://dcdn.it120.cc/2022/02/23/26a13ad7-990a-4fe1-8502-70e083f59156.png"/></div>
 
 
-## 📱部分原型设计预览
-<div align=center>
-<!-- <img width='22%' src="https://s4.ax1x.com/2022/01/17/7UGHNq.jpg"/>
-<img width='22%' src="https://s4.ax1x.com/2022/01/17/7UGb40.jpg"/> -->
-  <img width='18%' src="https://dcdn.it120.cc/2023/09/03/3a9ece75-ab6d-4a48-bdb4-cd9fb9b76726.png"/>
-  <img width='18%' src="https://dcdn.it120.cc/2023/09/03/5eec8225-9388-47f4-bc0c-41159e92cbd7.png"/>
-  <img width='18%' src="https://dcdn.it120.cc/2023/09/03/4f2eb1e4-c360-4890-ab15-eeedacc11d13.png"/>
-  <img width='18%' src="https://dcdn.it120.cc/2023/09/03/039b1a26-0cd6-45b9-8ec0-4dc0a75f8f98.jpg"/>
-  <img width='18%' src="https://dcdn.it120.cc/2023/09/03/9a82f5e3-8b15-4fbd-9796-cda6e3f5aa6a.jpg"/>
-</div>
 
-##### 专注自习室
-<div align=center><img width='30%' src="https://dcdn.it120.cc/2022/03/27/66c757b8-acaa-41d1-b409-e3af12ef2e9c.png"/>
-<img width='30%' src="https://dcdn.it120.cc/2022/03/27/952eee7b-6e01-4285-b1c9-217d936b0c81.png"/>
-</div>
