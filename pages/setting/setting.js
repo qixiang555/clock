@@ -13,11 +13,13 @@ Page({
     topTips: false,
     tophide: false,
     musicIndex: 0,
-    music: ["静音", "林间", "雨声", "田野"],
+    music: ["静音", "林间", "卡农", "城南", "浮光", "下雨"],
     musicUrl:[
       'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_55670028&response=res&type=convert_url&', 
-      'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_89130558&response=res&type=convert_url&',
-      'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_147235538&response=res&type=convert_url&'
+      'http://music.163.com/song/media/outer/url?id=478507889.mp3',
+      'http://music.163.com/song/media/outer/url?id=468176711.mp3',
+      'http://music.163.com/song/media/outer/url?id=1394601255.mp3',
+      'http://music.163.com/song/media/outer/url?id=1999615733.mp3',
     ],
     musicCoverUrl:'https://s3.ax1x.com/2021/03/12/6NLUV1.jpg',
     extraData: {
@@ -150,6 +152,22 @@ setTimeout(() => {
       music3.coverImgUrl = this.data.musicCoverUrl
       music3.src = this.data.musicUrl[2]
       music3.onEnded(()=>{music3.src = this.data.musicUrl[2]})
+    }else if (e.detail.value == 4) {
+      wx.stopBackgroundAudio()
+      const music3 = wx.getBackgroundAudioManager()
+      music3.title = this.data.music[4]
+      music3.singer = '专注时钟'
+      music3.coverImgUrl = this.data.musicCoverUrl
+      music3.src = this.data.musicUrl[3]
+      music3.onEnded(()=>{music3.src = this.data.musicUrl[3]})
+    }else if (e.detail.value == 5) {
+      wx.stopBackgroundAudio()
+      const music3 = wx.getBackgroundAudioManager()
+      music3.title = this.data.music[5]
+      music3.singer = '专注时钟'
+      music3.coverImgUrl = this.data.musicCoverUrl
+      music3.src = this.data.musicUrl[4]
+      music3.onEnded(()=>{music3.src = this.data.musicUrl[4]})
     }
     
   },
