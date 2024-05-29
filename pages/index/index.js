@@ -23,7 +23,8 @@ Page({
     isRuning: false,
     leftDeg: initDeg.left,
     rightDeg: initDeg.right,
-    vibison: ''
+    vibison: '',
+    showNavigation: true
       },
 
   onLoad: function (options) {
@@ -86,7 +87,8 @@ Page({
     animation.opacity(0.2).step()
     animation.opacity(1).step()
     this.setData({
-      nameAnimation: animation.export()
+      nameAnimation: animation.export(),
+      showNavigation: false
     })
   },
 
@@ -94,7 +96,8 @@ Page({
     // reset circle progress
     this.setData({
       leftDeg: initDeg.left,
-      rightDeg: initDeg.right
+      rightDeg: initDeg.right,
+      showNavigation: true
     })
   this.viblong()    
   this.timer && clearInterval(this.timer)
