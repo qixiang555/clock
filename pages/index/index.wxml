@@ -18,6 +18,12 @@
 		 			class="timer_done" 
 		 			src="../../image/complete.png"></image>
 		 </view>
+		<view class="timer_set">
+		     <view wx:if="{{showNavigation}}">    
+		    <navigator url="/pages/setting/setmore/setmore">  
+		    <button type="default" size="mini" plain="true">时长</button>  
+		    </navigator>  
+		    </view></view>
 		 <input 
 		 	type="text" 
 		 	placeholder-style="text-align:center" 
