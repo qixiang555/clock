@@ -108,7 +108,10 @@ page{
   width: 64px;
   height: 64px;
 }
-
+.timer_set{
+  margin-top:50%;
+  position:absolute;
+}
 .timer_inputname {
   position: absolute;
   bottom: -40px;
