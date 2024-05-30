@@ -1,6 +1,6 @@
 var util = require('../../utils/util.js')
 var wxCharts = require('../../utils/wxcharts.js')
-var app = getApp()
+var app = getApp();
 var ringChart = null;
 var lognum=0;
 var worknum=0;
@@ -83,7 +83,7 @@ setTimeout(() => {
     let logs = wx.getStorageSync('logs')
    worknum=0;
    restnum=0;
-   lognum=0;
+   lognum =0;
     logs.forEach(
       function(item, index, arry) {
       item.startTime = new Date(item.startTime).toLocaleString()
@@ -92,6 +92,9 @@ setTimeout(() => {
      if(item.type=='rest'){restnum++};
     }
     )
+    app.globalData.lognum = lognum;
+    wx.setStorageSync('lognum', lognum);
+
     this.setData({
       logs: logs
     })

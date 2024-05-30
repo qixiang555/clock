@@ -3,5 +3,18 @@
   "projectname": "focusclock",
   "setting": {
     "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "clockin",
+          "pathName": "pages/clockin/clockin",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }

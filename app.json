@@ -12,6 +12,7 @@
     "pages/more/more",
     "pages/todos/todos",
     "pages/poster/poster",
+    "pages/clockin/clockin",
     "pages/version/version"
   ],
   "navigateToMiniProgramAppIdList": [

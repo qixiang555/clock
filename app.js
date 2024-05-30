@@ -6,6 +6,11 @@ const defaultTime = {
 
 
 App({
+  // 5.30修改
+  globalData: {
+    lognum: 0
+  },
+
   onLaunch: function() {
     let workTime = wx.getStorageSync('workTime')
     let restTime = wx.getStorageSync('restTime')

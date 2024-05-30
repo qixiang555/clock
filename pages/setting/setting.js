@@ -1,7 +1,9 @@
 // const Tucao = requirePlugin('tucao').default;
+const app = getApp();
 const defaultAvatarUrl = 'https://mmbiz.qpic.cn/mmbiz/icTdbqWNOwNRna42FI242Lcia07jQodd2FJGIYQfG0LAJGFxM4FbnQP6yfMxBgJ0F3YRqJCJ1aPAK2dQagdusBZg/0'
 Page({
   data: {
+    lognum:0,
     userInfo: {},
     hasUserInfo: false,
     canIUseGetUserProfile: false,
@@ -37,8 +39,22 @@ Page({
       })
     }
   },
+  // 5.30
+  onLoad: function() {
+    // 获取 lognum 的值
+    let lognum = app.globalData.lognum || wx.getStorageSync('lognum') || 0;
+    this.setData({ lognum: lognum });
+  },
+  // 点击打卡后跳转
+  handleTap: function() {
+    wx.navigateTo({
+      url: `/pages/clockin/clockin?lognum=${this.data.lognum}`
+    });
+  },
 
   onShow() {
+    let lognum = app.globalData.lognum || wx.getStorageSync('lognum') || 0;
+    this.setData({ lognum: lognum });
     wx.setNavigationBarTitle({
       title: '专注时钟'
     })
