@@ -11,10 +11,10 @@ Page({
     interval:5000,
     duration:1000,
     imgUrls:[
-      "../../image/todo/todo1.jpeg",
-      "../../image/todo/todo2.jpeg",
-      "../../image/todo/todo3.jpeg",
-      "../../image/todo/todo4.jpg"
+      "../../image/todo1.jpeg",
+      "../../image/todo2.jpeg",
+      "../../image/todo3.jpeg",
+      "../../image/todo4.jpg"
     ]
   },
   onShow: function() {
