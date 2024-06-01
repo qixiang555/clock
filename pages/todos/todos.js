@@ -6,6 +6,16 @@ Page({
     allCompleted: false,
     logs: [],
     toastHidden: true,
+    indicatorDots:true,
+    autoplay:true,
+    interval:5000,
+    duration:1000,
+    imgUrls:[
+      "../../image/todo/todo1.jpeg",
+      "../../image/todo/todo2.jpeg",
+      "../../image/todo/todo3.jpeg",
+      "../../image/todo/todo4.jpg"
+    ]
   },
   onShow: function() {
     wx.setNavigationBarTitle({
