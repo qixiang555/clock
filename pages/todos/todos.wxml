@@ -1,4 +1,11 @@
 <view class="todo_container">
+<view class="todo">
+ <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:200px;">
+  <block wx:for="{{imgUrls}}">
+   <swiper-item><image src="{{item}}" class="silde-image" style="width:95%;height:150px;"></image></swiper-item>
+   </block>
+  </swiper>
+ </view>
   <view class="header">
     <!-- <image class="plus" src="../../image/plus.png"/> -->
     <input class="new-todo" value="{{ input }}" placeholder="添加任务"  bindinput="inputChangeHandle" bindconfirm="addTodoHandle" confirm-type="done"/>
