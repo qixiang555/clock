@@ -32,7 +32,12 @@ margin-left: 3%;
   margin-left: 5%;
   margin-right: 5%
 }
-
+.todo{
+  margin-top:10px;
+}
+.silde-image{
+  margin-left:10px; 
+}
 
 .todos {
   /* border: 3rpx solid #e0e0e0; */
