@@ -1,7 +1,7 @@
 {
   "useExtendedLib": {
   "weui": true
-},
+},   }，
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
@@ -13,7 +13,9 @@
     "pages/todos/todos",
     "pages/poster/poster",
     "pages/clockin/clockin",
-    "pages/version/version"
+    "pages/version/version",
+    "pages/setting/friends/friends",
+    "pages/setting/friends"
   ],
   "navigateToMiniProgramAppIdList": [
     "wxe333b834a643f99d",
@@ -59,6 +61,6 @@
         "text": "我"
       }
     ]
-  },
+  },   }，
   "sitemapLocation": "sitemap.json"
 }
